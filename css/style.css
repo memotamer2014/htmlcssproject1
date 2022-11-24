@@ -1,0 +1,346 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: "oswald";
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+/* start navbar*/
+nav {
+    background-color: black;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding:12px 18px;
+}
+nav .search {
+    float: right;
+} 
+nav a:hover {
+    background-color: lightgray;
+    color:black;
+}
+/* start header */
+header {
+    text-align: center;
+    font-family: "oswald";
+    padding: 20px;
+}
+header h1 {
+   font-size: 48px;
+  
+}
+header p {
+    font-size: 24px;
+  
+}
+header p span {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+}
+/*start img*/
+.imagediv{
+    position: relative;
+    font-family: "oswald";
+
+}
+.imagediv .position{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    color: white;
+
+}
+.imagediv .position h2{
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+.imagediv .position h1{
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+.imagediv .position button{
+    background-color:rgba(255, 255, 255, 0.3);
+    
+    border: none;
+    padding: 20px 30px;
+    font-weight: bold;
+
+
+
+}
+.imagediv .position button:hover{
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+
+/*Start main*/
+main{
+background-color: #F1F1F1;
+}
+main #leftside{
+    background-color: #F1F1F1;
+    width: 70%;
+    float: left;
+    padding: 20px;
+
+}
+main #leftside article{
+    background-color: white;
+    padding: 30px 20px;
+    margin: 15px 0px;
+}
+main #leftside article .artheader h1,main #leftside article .artheader p{
+    text-align: center;
+    font-family: oswald;
+}
+main #leftside article  .artheader h1
+{
+
+}
+main #leftside article .artheader p
+{
+    padding: 30px;
+}
+main #leftside article  .artheader p span{
+    color: grey;
+}
+main #leftside article .artbody {
+    font-family: opensans;
+    line-height: 23px;
+    font-size: 15px;
+
+}
+
+main #leftside article .artbody .p1{
+   
+    padding:20px 0px;
+
+}
+main #leftside article .artbody .p2{
+    padding:20px 0px;
+}
+main #leftside article .artbody span{
+    font-weight: bold;
+}
+main #leftside article section{
+
+}
+main #leftside article section .leftb{
+float: left;
+padding: 10px 15px;
+background-color: white;
+color: black;
+border: 1px solid black;
+font-weight: bold;
+
+}
+main #leftside article section .leftb:hover{
+    background-color: silver;
+}
+
+main #leftside article section .rightb{
+float: right;
+padding: 10px 15px;
+background-color: black;
+color: white;
+border: 1px solid black;
+font-weight: bold;
+
+}
+main #leftside article section .rightb span{
+    color: black;
+    background-color: white;
+    padding: 2px 5px;
+}
+main #leftside article section .rightb:hover{
+    background-color: silver;
+}
+main #leftside article .artfooter{
+    padding:20px 0px;
+}
+main #leftside article .hr{
+    border-bottom: 1px solid silver;
+    padding: 10px 0px;
+    
+}
+#rightside .artfooter{
+    padding: 10px;
+    border-bottom: 1px solid silver;
+    
+}
+#rightside .artfooter:hover {
+    background-color: silver;
+   
+}
+.artfooter .leftfooter{
+width: 10%;
+float: left;
+
+}
+.artfooter .rightfooter{
+    width: 90%;
+    float: right;
+    padding-left: 30px;
+
+}
+main #rightside{
+    background-color: #F1F1F1;
+    width: 30%;
+    float: right;
+    padding: 20px;
+
+}
+.clear{
+clear: both;
+}
+/**Start righside**/
+#rightside .fdiv img {
+    width: 100%;
+}
+main #rightside .fdiv {
+    background-color: black;
+    color: white;
+}
+main #rightside .fdiv h1 {
+    font-weight: bolder;
+    padding-left: 8px;
+}
+main #rightside .fdiv p {
+    padding: 8px;
+    line-height: 25px;
+}
+main #rightside .rightsections{
+    margin: 20px 0px;
+}
+main #rightside .rightsections .sectitle{
+    background-color: black;
+    color: white;
+   
+    padding: 20px;
+}
+main #rightside .rightsections .sectioncontent{
+    background-color: white;
+   
+}
+main #rightside .rightsections .sectioncontent .advp{
+    padding: 80px 0px;
+    text-align: center;
+   
+    background-color: #F1F1F1;
+}
+main #rightside #tags{
+
+}
+main #rightside #tags span{
+    background-color: #F1F1F1;
+    font-size: 14px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+ }
+ main #rightside #tags .firsts{
+    background-color: black;
+    color: white;
+ }
+
+ main #rightside  #inspiration{
+
+ }
+ main #rightside  #inspiration .im{
+    width: 50%;
+    
+    float: left;
+    padding: 10px;
+ }
+ main #rightside #follow{
+
+ }
+ main #rightside #follow i{
+    font-size: 25px;
+    display: inline-block;
+    padding: 3px;
+ }
+ main #rightside #follow i:hover{
+    opacity: 0.7;
+ }
+ main #rightside #subscribe p{
+    padding: 10px 0px;
+ }
+ main #rightside #subscribe input, main #rightside #subscribe button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+ }
+ main #rightside #subscribe button{
+    background-color: #F44336;
+    color: white;
+    border: none;
+ }
+/*Start footer*/
+footer{
+    background-color: #616161;
+    color: white;
+    padding: 60px 35px;
+}
+footer a{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    text-decoration: none;
+}
+footer a i{
+    padding: 0px 10px;
+}
+footer a:hover{
+    background-color: silver;
+    color: black;
+}
+footer p{
+    padding: 20px 0px;
+}
+footer p a{
+    color: white;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .imagediv .position{
+       
+        top: 50px;
+        
+        
+    
+    }
+   
+    .imagediv .position h1{
+        font-size: 50px;
+       
+    }
+
+    main #leftside,main #rightside{
+      
+        width: 100%;
+        float: none;
+      
+    
+    }
+
+
+}
